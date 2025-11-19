@@ -5,9 +5,7 @@ class Solution:
         for price in prices:
             minn=min(price,minn)
             x=max(x,price-minn)
-        if x>0:
-            return x
-        return 0
+        return x
             
             
         
